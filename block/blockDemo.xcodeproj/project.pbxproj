@@ -15,6 +15,7 @@
 		07CD20F621CBAE3C001F997F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD20F521CBAE3C001F997F /* main.m */; };
 		07CD210021CBAE3C001F997F /* blockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD20FF21CBAE3C001F997F /* blockDemoTests.m */; };
 		07CD210B21CBAE3C001F997F /* blockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD210A21CBAE3C001F997F /* blockDemoUITests.m */; };
+		07CD211A21CBB03A001F997F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD211921CBB03A001F997F /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		07CD210621CBAE3C001F997F /* blockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CD210A21CBAE3C001F997F /* blockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blockDemoUITests.m; sourceTree = "<group>"; };
 		07CD210C21CBAE3C001F997F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CD211821CBB03A001F997F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		07CD211921CBB03A001F997F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				07CD20F121CBAE3C001F997F /* LaunchScreen.storyboard */,
 				07CD20F421CBAE3C001F997F /* Info.plist */,
 				07CD20F521CBAE3C001F997F /* main.m */,
+				07CD211821CBB03A001F997F /* DetailViewController.h */,
+				07CD211921CBB03A001F997F /* DetailViewController.m */,
 			);
 			path = blockDemo;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				07CD20EB21CBAE3B001F997F /* ViewController.m in Sources */,
 				07CD20F621CBAE3C001F997F /* main.m in Sources */,
 				07CD20E821CBAE3B001F997F /* AppDelegate.m in Sources */,
+				07CD211A21CBB03A001F997F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
