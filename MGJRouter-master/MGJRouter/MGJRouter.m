@@ -249,7 +249,7 @@ NSString *const MGJRouterParameterUserInfo = @"MGJRouterParameterUserInfo";
     for (NSURLQueryItem *item in queryItems) {
         parameters[item.name] = item.value;
     }
-
+ 
     if (subRoutes[@"_"]) {
         parameters[@"block"] = [subRoutes[@"_"] copy];
     }
